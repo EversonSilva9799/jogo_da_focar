@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.titulo-pagina {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.num-tentativas {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.info {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #e5edf9;
+  color: #2468e5;
+  font-size: 1.5em;
+}
+
+
+.form-letra {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.form-letra input {
+  width: 100%;
+  height: 40px;
+
+  border-radius: 5px;
+  display: block;
+  border: 2px solid rgba(0, 0, 0,0.2);
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.form-letra button {
+  width: 120px;
+  height: 36px;
+  display: inline-block;
+  margin-right: 10px;
+  background: rgba(0, 0, 0,0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.palavra-secreta {
+  margin: o auto;
+  margin-top: 60px;
+  text-align: center;
+}
+
+div.palavra-secreta h1 {
+  color: #000;
+}
+
+.win {
+  color: rgb(33, 228, 33);
+
+}
+
+.letra {
+  width: 30px;
+  margin: 0 auto;
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 4em;
+}
+
+
+@keyframes letra-animada {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.animacao {
+
+  animation-name: letra-animada;
+  animation-duration: 2s;
+}
+
